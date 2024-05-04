@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parent Page</title>
+<script>
+function logParentWindow() {
+    console.log("Parent Window Object:", window);
+}
+</script>
+</head>
+<body>
+
+<h1>Parent Page</h1>
+<button onclick="logParentWindow()">Log Parent Window Object</button>
+
+<iframe id="myIframe" src="iframe.html" width="400" height="300"></iframe>
+
+</body>
+</html>
